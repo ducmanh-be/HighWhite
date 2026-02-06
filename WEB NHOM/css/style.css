@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.khung-chinh {
+    padding: 0 48px;
+    margin-bottom: 80px;
+}
+
+.thanh-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 36px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+}
+
+.logo-shop {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-style: italic;
+}
+
+.danh-sach-lien-ket {
+    display: flex;
+    gap: 24px;
+}
+
+.danh-sach-lien-ket a {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.danh-sach-lien-ket a:hover {
+    border-bottom: 2px solid black;
+}
+
+.khu-vuc-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.o-tim-kiem {
+    background: #f5f5f5;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.o-tim-kiem input {
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 8px;
+}
+
+.o-tim-kiem:hover {
+    background: #e5e5e5;
+}
+
+.khu-vuc-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.thanh-quang-cao {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.thanh-quang-cao a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.anh-bia-chinh {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.anh-bia-chinh img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.noi-dung-bia {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.tieu-de-phu {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.anh-bia-chinh h1 {
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 0.9;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.mo-ta {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.nut-den {
+    background: #111;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.nut-den:hover {
+    background: #757575;
+}
+
+.tieu-de-muc {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.luoi-xu-huong {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.the-xu-huong {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.the-xu-huong img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lop-phu-noi-dung {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+
+.lop-phu-noi-dung h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.nut-trang {
+    background: white;
+    color: black;
+    padding: 8px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.nut-trang:hover {
+    background: #ddd;
+}
+
+.luoi-san-pham {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.san-pham-con {
+    cursor: pointer;
+}
+
+.hop-anh-sp img {
+    width: 100%;
+}
+
+.thong-tin-sp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.thong-tin-trai h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.danh-muc {
+    color: #757575;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.gia-tien {
+    font-weight: 500;
+}
+
+.chan-trang {
+    background: #111;
+    color: white;
+    padding: 40px 48px;
+}
+
+.noi-dung-chan-trang {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.cot-lien-ket h4 {
+    font-family: "Impact", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.cot-lien-ket ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.cot-lien-ket ul li:hover {
+    color: white;
+}
+
+.cuoi-trang {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 11px;
+    color: #7e7e7e;
+}
+
+
+.ghi-chu-cre {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #999;
+}
